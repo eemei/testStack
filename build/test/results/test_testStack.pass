@@ -1,0 +1,38 @@
+---
+:source:
+  :path: test
+  :file: test_testStack.c
+:successes:
+- :test: test_stackCreate_should_return_non_NULL_Stack_with_all_field
+  :line: 14
+  :message: ''
+- :test: test_stackelem_should_return_int
+  :line: 30
+  :message: ''
+- :test: test_stackadd
+  :line: 43
+  :message: ''
+- :test: test_removestack
+  :line: 72
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout:
+- value of data:4
+- value of data:2
+- value of data:3
+- value of data:4
+- "[2] -> [3]-->"
+- "[4]-->"
+- value of data:2
+- value of data:3
+- value of data:4
+- "[2] -> [3]-->"
+- "[4]-->"
+- "[remove value 4]"
+- ''
